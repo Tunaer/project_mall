@@ -30,7 +30,7 @@
       isActive(){
         // console.log(this.$route.path)   指的是当前路由的路径
         // console.log(this.path);      指的是控件调用方法时的该控件的路径
-        //
+        // 
         // return this.$route.path.indexOf(this.path) !== -1;
         return this.$route.path.includes(this.path);
       },
